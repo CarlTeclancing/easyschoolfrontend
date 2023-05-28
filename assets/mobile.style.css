@@ -1,0 +1,146 @@
+@media screen and (max-width: 600px) {
+
+    .container{
+        width: 100%;
+        padding: 32px;
+        
+    }
+    body::-webkit-scrollbar{
+        width: 0;
+    }
+    .nav-mobile{
+        display: flex;
+        width: 90%;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px;
+        color: white;
+
+    }
+    .bi{
+        font-size: 32px;
+    }
+    .nav-l{
+        display: none;
+    }
+    aside{
+        width: 90%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    main{
+        width: 100%;
+        height: auto;
+    }
+   .flex-end{
+        margin-top: 60px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main h1{
+        font-size: 32px;
+
+    }
+    .tx-l{
+        font-size: 12px;
+    }
+    .con-same{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        scroll-behavior: smooth;
+        scroll-snap-type: mandatory;
+        overflow-x: auto;
+        padding: 10px;
+        width: 100%;
+
+    }
+    .con-same::-webkit-scrollbar{
+        width: 0;
+    }
+    .same{
+        width: 128px;
+        height: 106px;
+        border-radius: 12px;
+        background-color: #031B29;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 4px;
+    }
+    .scroll-sec{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .course-card{
+        margin: 16px;
+        width: 90%;
+    }
+    .img-c{
+        width: 100%;
+    }
+    .img-l{
+        width: 100%;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .narrow{
+        height: auto;
+    }
+    .testimonial-secc{
+        width: 80%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-wrap: wrap;
+   
+    }
+    .blog-sec{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .sub{
+        width: 90%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    h3{
+        font-size: 16px;
+        text-align: center;
+
+    }
+    form{
+        width: 90%;
+    }
+    input{
+        width: 65%;
+    }
+
+
+}
+
+

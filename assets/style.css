@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+body{
+
+    background-color: #003554;
+    width: auto;
+    height: auto;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    font-family: 'Epilogue', sans-serif;
+}
+.container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nav-l{
+    width: 100%;
+    height: 50px;
+    margin-top: 32px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.logo{
+    color: #15A3EF;
+    font-size: 32px;
+    font-weight: bolder;
+}
+.nav-el{
+    width: auto;
+    display: flex;
+
+}
+.nav-elements{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 74px;
+}
+.btn-br{
+    width: 190px;
+    height: 64px;
+    
+    background-color: #00355400;
+    border: 1px solid white;
+    color: white;
+    border-radius: 12px;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+aside{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+section, main{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: white;
+    width: 50%;
+    height: auto;
+    flex-direction: column;
+}
+section{
+    justify-content: end;
+}
+h1{
+    font-size: 64px;
+    margin-bottom:16px;
+}
+.tx-l{
+    font-size: 24px;
+    font-weight: normal;
+}
+.con-same{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.same{
+    width: 128px;
+    height: 106px;
+    border-radius: 12px;
+    background-color: #031B29;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.same h4{
+    font-size: 32px;
+    font-weight: bolder;
+}
+.same span{
+    font-size: 16px;
+}
+.btn-primary{
+    margin-top: 40px;
+    width: 100%;
+    background-color: #15A3EF;
+    color: white;
+    font-size: 14px;
+    height: 64px;
+    border-radius: 12px;
+    float: left;
+    border: none;
+}
+.flex-end{
+    justify-content: end;
+    align-items: end;
+}
+.scroll-sec{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+    overflow-x: auto;
+    padding: 10px;
+}
+.scroll-sec::-webkit-scrollbar{
+    width: 0;
+}
+
+.course-card{
+    width: 375px;
+    height: 485px;
+    background-color: #031B29;
+    border-radius: 12px;
+    color: white;
+    margin: 10px;
+}
+h4{
+    font-size: 24px;
+    margin: 16px;
+}
+.course-des{
+    margin: 16px;
+    color: rgba(255, 255, 255, 0.645);
+    font-weight:100;
+}
+.c-h{
+    margin: 16px;
+}
+.m-4{
+    margin: 16px;
+}
+.btn-course{
+    width: 90%;
+    background-color: #15A3EF;
+    color: white;
+    font-size: 14px;
+    height: 64px;
+    border-radius: 12px;
+    margin: 16px;
+    align-items: center;
+    border: none;
+}
+h2{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    margin: 100px;
+}
+.narrow{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.testimonial-secc{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.testimonial{
+    width: 350px;
+    height: 160px;
+    background-color: #031B29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    border-radius: 12px;
+    margin: 16px;
+}
+.testimonial div{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 16px;
+}
+.testimonial div h5{
+    font-size: 24px;
+}
+
+.testimonial div h5 span{
+    font-size: 12px;
+    font-weight: 100;
+    text-align: left;
+}
+.testimonial span{
+    font-size: 14px;
+    padding: 16px;
+}
+.t-left{
+    text-align: left;
+    height: 500px;
+    width: 30%;
+    display: flex;
+    flex-direction: columna;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.tx-left p{
+    text-align: left;
+    line-height: 20px;
+
+}
+
+h3{
+    font-size: 32px;
+    font-weight: bolder;
+
+}
+.bi{
+    font-size: 24px;
+}
+.blog-sec{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+    overflow-x: auto;
+    padding: 10px;
+}
+.scroll-sec::-webkit-scrollbar{
+    width: 0;
+}
+
+.course-card{
+    width: 375px;
+    height: 450px;
+    background-color: #031B29;
+    border-radius: 12px;
+    color: white;
+    margin: 10px;
+}
+
+.sub{
+    margin: 16px;
+    width: 100%;
+    height: 364px;
+    background-color: #031B29;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form{
+    padding: 32px;
+}
+input{
+    width: 450px;
+    height: 44px;
+
+}
+#btn{
+    width: 100px;
+    background-color: #15A3EF;
+    color: white;
+    border: none;
+    padding: 4px;
+}
+.nav-mobile{
+    display: none;
+}
+.main{
+    width: 100%;
+
+}
+.t-left{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
