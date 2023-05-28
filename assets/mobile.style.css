@@ -90,6 +90,7 @@
     .course-card{
         margin: 16px;
         width: 90%;
+        height: auto;
     }
     .img-c{
         width: 100%;
