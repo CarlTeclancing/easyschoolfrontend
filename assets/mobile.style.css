@@ -5,6 +5,10 @@
 }
 body{
     overflow-x: hidden;
+    line-height: 1.5rem;
+}
+h1{
+    line-height: 2.5rem;
 }
     .container{
         width: 100%;
